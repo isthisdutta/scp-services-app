@@ -4,7 +4,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
-  region: eu-west-1
+  region: eu-west-2
   apiName: ${self:service}
   memorySize: 128 # mb
   timeout: 10 # seconds
